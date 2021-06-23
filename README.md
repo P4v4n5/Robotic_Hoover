@@ -1,7 +1,7 @@
 # Robotic_Hoover
 Requirements  
 ------------
--python3
+- python3
 
 1.Install Python3 on your linux  
 2.Clone this Repo. ( # git clone https://github.com/P4v4n5/Robotic_Hoover.git )  
