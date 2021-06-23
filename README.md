@@ -18,7 +18,7 @@ How to give input?
 
 Output:
 
-<img src="Output_1.png"> 
+
 
 
 <img src="Output_1_dirt.png">  
