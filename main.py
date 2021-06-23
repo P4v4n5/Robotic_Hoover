@@ -39,7 +39,7 @@ def Hoover_finalPosition(direction):
             if (key == dirtX[i] and value == dirtY[i]):
                 countDirt += 1
 
-    print("dirt:", countDirt)
+    print("Number of Dirt particles:", countDirt)
 
     # required final position of robot
     print("Final Hoover Position: ", (countEast - countWest), "", (countNorth - countSouth))
