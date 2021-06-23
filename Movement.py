@@ -1,19 +1,23 @@
-
 def Hoover_finalPosition(direction):
+
+
     d = len(direction)
 
-    #Enter X coordinate
-    countEast=int(input("Enter X co-ordinate of the hoover initial possition \n"))
-    #Enter Y coordinate
-    countNorth=int(input("Enter Y co-ordinate of the hoover initial possition \n"))
+    # Enter Initial position of the Robotic Hoover
+    countEast,countNorth=list(map(int,input("Enter the X Y Co-ordinate point of the Robotic Hoover initial Position: ").split(" ")))
 
+    #Dirt particle coordinates
+    dirtX,dirtY=[4,1,2,3],[2,3,2,3]
+   
     countWest = 0
     countSouth = 0
+    countDirt = 0
+    dict1 = {};
 
     print("Traversed co-ordinates are ")
     for i in range(d):
 
-        #for each direction N/S/W/E
+        # for each direction N/S/W/E
         if (direction[i] == 'N'):
             countNorth += 1
 
@@ -29,11 +33,16 @@ def Hoover_finalPosition(direction):
         k1 = (countEast - countWest)
         k2 = (countNorth - countSouth)
         print(k1, "", k2)
+        dict1[k1] = k2
+    for key, value in dict1.items():
+        for i in dirtX and dirtY:
+            if (key == dirtX[i] and value == dirtY[i]):
+                countDirt += 1
 
+    print("dirt:", countDirt)
 
     # required final position of robot
-    print("Final Hoover Position: ", (countEast - countWest),"", (countNorth - countSouth))
-
+    print("Final Hoover Position: ", (countEast - countWest), "", (countNorth - countSouth))
 
 if __name__ == '__main__':
 
