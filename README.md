@@ -19,4 +19,4 @@ How to give input?
 Output:
 
 
-![Test Image 1](C:\Users\Pavan-S\Pictures\Screenshot_1)
+![](C:\Users\Pavan-S\Pictures\Screenshot_1)
