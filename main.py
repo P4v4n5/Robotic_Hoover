@@ -47,6 +47,6 @@ def Hoover_finalPosition(direction):
 if __name__ == '__main__':
 
 
-    direction = input("Enter the Driving instructions \n")
+    direction = input("Enter the Driving instructions: \n")
     Hoover_finalPosition(direction)
 
