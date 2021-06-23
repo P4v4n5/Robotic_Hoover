@@ -1,6 +1,5 @@
 def Hoover_finalPosition(direction):
 
-
     d = len(direction)
 
     # Enter Initial position of the Robotic Hoover
