@@ -18,5 +18,6 @@ How to give input?
 
 Output:
 
-<img src="C:\Users\Pavan-S\Pictures\Screenshot_1">
+<img src="Output_1.png">
 
+Here, 
