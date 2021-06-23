@@ -18,5 +18,5 @@ How to give input?
 
 Output:
 
+<img src="C:\Users\Pavan-S\Pictures\Screenshot_1">
 
-![](C:\Users\Pavan-S\Pictures\Screenshot_1)
