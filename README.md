@@ -23,4 +23,4 @@ Output:
 
 <img src="Output1_dirt.png">  
 
-Here, (4,2),(1,3),(2,2),(3,3) are the hardcoded values of dirt particles. Among these in the figure we can see only 2 points (4,2) and (2,2) are present in the path of the Robotic Hoover. Hence we get number of dirt particles as 2.
+Here, (4,2),(1,3),(2,2),(3,3) are the XY Co-Ordinates where the dust particles are present. Among these points in the figure, we can see only 2 points (4,2) and (2,2) are present in the path of the Robotic Hoover. Hence we get number of dirt particles as 2.
